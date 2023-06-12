@@ -1,1 +1,17 @@
+//import Variables
+@use 'src/variables' as *;
 
+//import Mixins
+@use 'src/mixins' as *;
+
+
+@each $property, $map in $utilities{
+  $prefix: map-get($map ,"prefix" );
+  $values: map-get($map ,"values" );
+
+  @each $k, $v in $values{
+    .#{$prefix}-#{$k}{
+      $property: $v;
+    }
+  }
+} ;

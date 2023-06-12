@@ -1,1 +1,187 @@
+// Stander units
+$base-padding: 20px;
+$base-margin: 20px;
+$base-rad: 20px;
+$base-font-size: 1rem;
 
+// Colors
+$colors:(
+    "blue":#0d6efd ,
+    "indigo":#6610f2 ,
+    "purple":#6f42c1 ,
+    "pink":#d63384 ,
+    "red":#dc3545 ,
+    "orange":#fd7e14 ,
+    "yellow":#ffc107 ,
+    "green":#198754 ,
+    "teal":#20c997 ,
+    "cyan":#0dcaf0 ,
+    "black":#000 ,
+    "white":#fff ,
+    "gray":#adb5bd ,
+    "dark-gray":#212529 ,
+);
+
+// Utilities
+$utilities:(
+    "padding":(
+        "prefix":"p",
+        "values":(
+            "1": $base-padding,
+            "2": $base-padding * 1.5,
+            "3": $base-padding * 2,
+            "4": $base-padding * 2.5,
+            "5": $base-padding * 3,
+            "6": $base-padding * 3.5,
+            "7": $base-padding * 4,
+            "8": $base-padding * 4.5,
+            "9": $base-padding * 5,
+        )
+    ),
+    "padding-left":(
+        "prefix":"pl",
+        "values":(
+            "1": $base-padding,
+            "2": $base-padding * 1.5,
+            "3": $base-padding * 2,
+            "4": $base-padding * 2.5,
+            "5": $base-padding * 3,
+            "6": $base-padding * 3.5,
+            "7": $base-padding * 4,
+            "8": $base-padding * 4.5,
+            "9": $base-padding * 5,
+        )
+    ),
+    "padding-right":(
+        "prefix":"pr",
+        "values":(
+            "1": $base-padding,
+            "2": $base-padding * 1.5,
+            "3": $base-padding * 2,
+            "4": $base-padding * 2.5,
+            "5": $base-padding * 3,
+            "6": $base-padding * 3.5,
+            "7": $base-padding * 4,
+            "8": $base-padding * 4.5,
+            "9": $base-padding * 5,
+        )
+    ),
+    "padding-top":(
+        "prefix":"pt",
+        "values":(
+            "1": $base-padding,
+            "2": $base-padding * 1.5,
+            "3": $base-padding * 2,
+            "4": $base-padding * 2.5,
+            "5": $base-padding * 3,
+            "6": $base-padding * 3.5,
+            "7": $base-padding * 4,
+            "8": $base-padding * 4.5,
+            "9": $base-padding * 5,
+        )
+    ),
+    "padding-bottom":(
+        "prefix":"pb",
+        "values":(
+            "1": $base-padding,
+            "2": $base-padding * 1.5,
+            "3": $base-padding * 2,
+            "4": $base-padding * 2.5,
+            "5": $base-padding * 3,
+            "6": $base-padding * 3.5,
+            "7": $base-padding * 4,
+            "8": $base-padding * 4.5,
+            "9": $base-padding * 5,
+        )
+    ),
+    "margin":(
+        "prefix":"m",
+        "values":(
+            "1": $base-margin,
+            "2": $base-margin * 1.5,
+            "3": $base-margin * 2,
+            "4": $base-margin * 2.5,
+            "5": $base-margin * 3,
+            "6": $base-margin * 3.5,
+            "7": $base-margin * 4,
+            "8": $base-margin * 4.5,
+            "9": $base-margin * 5,
+        )
+    ),
+    "margin-left":(
+        "prefix":"ml",
+        "values":(
+            "1": $base-margin,
+            "2": $base-margin * 1.5,
+            "3": $base-margin * 2,
+            "4": $base-margin * 2.5,
+            "5": $base-margin * 3,
+            "6": $base-margin * 3.5,
+            "7": $base-margin * 4,
+            "8": $base-margin * 4.5,
+            "9": $base-margin * 5,
+        )
+    ),
+    "margin-right":(
+        "prefix":"mr",
+        "values":(
+            "1": $base-margin,
+            "2": $base-margin * 1.5,
+            "3": $base-margin * 2,
+            "4": $base-margin * 2.5,
+            "5": $base-margin * 3,
+            "6": $base-margin * 3.5,
+            "7": $base-margin * 4,
+            "8": $base-margin * 4.5,
+            "9": $base-margin * 5,
+        )
+    ),
+    "margin-top":(
+        "prefix":"mt",
+        "values":(
+            "1": $base-margin,
+            "2": $base-margin * 1.5,
+            "3": $base-margin * 2,
+            "4": $base-margin * 2.5,
+            "5": $base-margin * 3,
+            "6": $base-margin * 3.5,
+            "7": $base-margin * 4,
+            "8": $base-margin * 4.5,
+            "9": $base-margin * 5,
+        )
+    ),
+    "margin-bottom":(
+        "prefix":"mb",
+        "values":(
+            "1": $base-margin,
+            "2": $base-margin * 1.5,
+            "3": $base-margin * 2,
+            "4": $base-margin * 2.5,
+            "5": $base-margin * 3,
+            "6": $base-margin * 3.5,
+            "7": $base-margin * 4,
+            "8": $base-margin * 4.5,
+            "9": $base-margin * 5,
+        )
+    ),
+    "border-raduis":(
+        "prefix":"rad",
+        "values":(
+            "sm": $base-rad * 0.5,
+            "base": $base-rad,
+            "md": $base-rad * 1.5,
+            "lg": $base-rad * 2,
+            "xl": $base-rad * 3,
+        )
+    ),
+    "display":(
+        "prefix":"d",
+        "values":(
+            "n":"none"
+            "in":"inline"
+            "b":"block"
+            "f":"flex"
+            "inb":"inline-block"
+        )
+    ),
+)
