@@ -34,3 +34,12 @@ ul{
     }
   }
 };
+
+@each $k, $v in $colors{
+  .color-#{$k}{
+    color: $v;
+  }
+  .back-#{$k}{
+    background-color: $v;
+  }
+}
