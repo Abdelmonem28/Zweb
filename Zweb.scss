@@ -5,13 +5,32 @@
 @use 'src/mixins' as *;
 
 
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
 @each $property, $map in $utilities{
-  $prefix: map-get($map ,"prefix" );
-  $values: map-get($map ,"values" );
+  $prefix: map-get($map ,"prefix");
+  $values: map-get($map ,"values");
 
   @each $k, $v in $values{
     .#{$prefix}-#{$k}{
-      $property: $v;
+      #{$property}: $v;
     }
   }
-} ;
+};
