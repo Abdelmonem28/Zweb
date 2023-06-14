@@ -42,8 +42,9 @@
     border: 0;
     border-radius: $base-rad;
     cursor: pointer;
-    padding-inline: $base-padding;
-    padding-block: calc($base-padding / 2);
+    padding: calc($base-padding / 4) $base-padding;
     transition-duration: 0.2s;
     transition-timing-function: ease;
+    height: fit-content;
+    width: fit-content;
 };

@@ -318,6 +318,31 @@ $utilities:(
             "spaceE": space-evenly,
         )
     ),
+    "align-items":(
+        "prefix":"align",
+        "values":(
+            "center": center,
+            "start": flex-start,
+            "end": flex-end,
+        )
+    ),
+    "flex-direction":(
+        "prefix":"f",
+        "values":(
+            "row": row,
+            "rowR": row-reverse,
+            "column": column,
+            "columnR": column-reverse,
+        )
+    ),
+    "text-align":(
+        "prefix":"text",
+        "values":(
+            "center": center,
+            "left": left,
+            "right": right,
+        )
+    ),
 );
 
 // Media Querys

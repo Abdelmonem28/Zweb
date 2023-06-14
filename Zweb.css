@@ -460,6 +460,46 @@ ul {
   justify-content: space-evenly;
 }
 
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-rowR {
+  flex-direction: row-reverse;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-columnR {
+  flex-direction: column-reverse;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .color-blue {
   color: #0d6efd;
 }
@@ -1293,10 +1333,10 @@ ul {
 }
 
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: min(1200px, 100%);
+  height: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-inline: 20px;
 }
 
 .row {
@@ -1594,10 +1634,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 
 .btn-blue {
@@ -1605,10 +1646,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-blue:hover {
   background-color: #267dfd;
@@ -1619,15 +1661,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #0d6efd;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #0d6efd solid;
 }
 .btn-outlined-blue:hover {
   background-color: #0d6efd;
-  color: transparent;
+  color: white;
 }
 
 .btn-indigo {
@@ -1635,10 +1678,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-indigo:hover {
   background-color: #7528f3;
@@ -1649,15 +1693,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #6610f2;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #6610f2 solid;
 }
 .btn-outlined-indigo:hover {
   background-color: #6610f2;
-  color: transparent;
+  color: white;
 }
 
 .btn-purple {
@@ -1665,10 +1710,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-purple:hover {
   background-color: #7e55c7;
@@ -1679,15 +1725,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #6f42c1;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #6f42c1 solid;
 }
 .btn-outlined-purple:hover {
   background-color: #6f42c1;
-  color: transparent;
+  color: white;
 }
 
 .btn-pink {
@@ -1695,10 +1742,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-pink:hover {
   background-color: #da4891;
@@ -1709,15 +1757,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #d63384;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #d63384 solid;
 }
 .btn-outlined-pink:hover {
   background-color: #d63384;
-  color: transparent;
+  color: white;
 }
 
 .btn-red {
@@ -1725,10 +1774,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-red:hover {
   background-color: #e04b59;
@@ -1739,15 +1789,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #dc3545;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #dc3545 solid;
 }
 .btn-outlined-red:hover {
   background-color: #dc3545;
-  color: transparent;
+  color: white;
 }
 
 .btn-orange {
@@ -1755,10 +1806,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-orange:hover {
   background-color: #fd8c2d;
@@ -1769,15 +1821,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #fd7e14;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #fd7e14 solid;
 }
 .btn-outlined-orange:hover {
   background-color: #fd7e14;
-  color: transparent;
+  color: white;
 }
 
 .btn-yellow {
@@ -1785,10 +1838,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-yellow:hover {
   background-color: #ffc721;
@@ -1799,15 +1853,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #ffc107;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #ffc107 solid;
 }
 .btn-outlined-yellow:hover {
   background-color: #ffc107;
-  color: transparent;
+  color: white;
 }
 
 .btn-green {
@@ -1815,10 +1870,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-green:hover {
   background-color: #1d9d61;
@@ -1829,15 +1885,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #198754;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #198754 solid;
 }
 .btn-outlined-green:hover {
   background-color: #198754;
-  color: transparent;
+  color: white;
 }
 
 .btn-teal {
@@ -1845,10 +1902,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-teal:hover {
   background-color: #26dca6;
@@ -1859,15 +1917,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #20c997;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #20c997 solid;
 }
 .btn-outlined-teal:hover {
   background-color: #20c997;
-  color: transparent;
+  color: white;
 }
 
 .btn-cyan {
@@ -1875,10 +1934,11 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  height: fit-content;
+  width: fit-content;
 }
 .btn-cyan:hover {
   background-color: #23d0f3;
@@ -1889,15 +1949,16 @@ ul {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding: 5px 20px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
-  border-color: #0dcaf0;
+  height: fit-content;
+  width: fit-content;
+  border: 2px #0dcaf0 solid;
 }
 .btn-outlined-cyan:hover {
   background-color: #0dcaf0;
-  color: transparent;
+  color: white;
 }
 
 .card {
