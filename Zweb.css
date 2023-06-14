@@ -1514,4 +1514,147 @@ ul {
   margin-right: -30px;
 }
 
+.btn {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn:hover {
+  background-color: white;
+}
+
+.btn-blue {
+  background-color: #0d6efd;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-blue:hover {
+  background-color: #408cfd;
+}
+
+.btn-indigo {
+  background-color: #6610f2;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-indigo:hover {
+  background-color: #8540f5;
+}
+
+.btn-purple {
+  background-color: #6f42c1;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-purple:hover {
+  background-color: #8c68ce;
+}
+
+.btn-pink {
+  background-color: #d63384;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-pink:hover {
+  background-color: #df5d9e;
+}
+
+.btn-red {
+  background-color: #dc3545;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-red:hover {
+  background-color: #e4606d;
+}
+
+.btn-orange {
+  background-color: #fd7e14;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-orange:hover {
+  background-color: #fd9a47;
+}
+
+.btn-yellow {
+  background-color: #ffc107;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-yellow:hover {
+  background-color: #ffce3a;
+}
+
+.btn-green {
+  background-color: #198754;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-green:hover {
+  background-color: #21b26f;
+}
+
+.btn-teal {
+  background-color: #20c997;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-teal:hover {
+  background-color: #3ce0af;
+}
+
+.btn-cyan {
+  background-color: #0dcaf0;
+  border: 0;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.btn-cyan:hover {
+  background-color: #3cd5f4;
+}
+
 /*# sourceMappingURL=Zweb.css.map */

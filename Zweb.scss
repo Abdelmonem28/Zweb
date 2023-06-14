@@ -127,3 +127,15 @@ ul{
     margin-right: -$v;
   }
 }
+
+.btn{
+  @include btn();
+}
+
+@each $k, $v in $colors{
+  $color: map-get($v , "default" );
+
+  .btn-#{$k}{
+    @include btn($color)
+  }
+}

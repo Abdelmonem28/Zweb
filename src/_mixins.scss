@@ -37,7 +37,7 @@
     box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.5);
 };
 
-@mixin btn($back : trasparent){
+@mixin btn($back : white){
     background-color: $back;
     border: 0;
     cursor: pointer;
