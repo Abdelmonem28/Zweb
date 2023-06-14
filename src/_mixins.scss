@@ -1,6 +1,9 @@
 // Import Variables
 @use './variables' as *;
 
+
+
+// Media Querys
 @mixin xs{
     @media (min-width: map-get($break-points, "xs")) {
         @content
@@ -24,5 +27,25 @@
 @mixin xl{
     @media (min-width: map-get($break-points, "xl")) {
         @content
+    }
+};
+
+
+//Componet
+@mixin cardWshadow(){
+    width: 100%;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.5);
+};
+
+@mixin btn($back : trasparent){
+    background-color: $back;
+    border: 0;
+    cursor: pointer;
+    padding-inline: $base-padding;
+    padding-block: calc($base-padding / 2);
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    &:hover{
+        background-color: lighten($back, 10%) 
     }
 };
