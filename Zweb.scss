@@ -138,13 +138,29 @@ ul{
 }
 
 .btn{
-  @include btn();
+  @include btn;
 }
 
 @each $k, $v in $colors{
   $color: map-get($v , "default" );
 
   .btn-#{$k}{
-    @include btn($color)
+    @include btn($color);
+    &:hover{
+      background-color: lighten($color, 5%);
+    }
   }
+
+  .btn-outlined-#{$k}{
+    @include btn(transparent);
+    border-color: $color;
+    &:hover{
+      background-color: $color;
+      color: transparent;
+    }
+  }
+}
+
+.card{
+  @include cardWshadow();
 }

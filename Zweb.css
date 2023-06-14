@@ -416,6 +416,26 @@ ul {
   display: inline-block;
 }
 
+.fs-sm {
+  font-size: 0.5rem;
+}
+
+.fs-base {
+  font-size: 1rem;
+}
+
+.fs-md {
+  font-size: 1.5rem;
+}
+
+.fs-lg {
+  font-size: 2rem;
+}
+
+.fs-xl {
+  font-size: 3rem;
+}
+
 .color-blue {
   color: #0d6efd;
 }
@@ -1547,21 +1567,19 @@ ul {
 }
 
 .btn {
-  background-color: white;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
 }
-.btn:hover {
-  background-color: white;
-}
 
 .btn-blue {
   background-color: #0d6efd;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1569,12 +1587,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-blue:hover {
-  background-color: #408cfd;
+  background-color: #267dfd;
+}
+
+.btn-outlined-blue {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #0d6efd;
+}
+.btn-outlined-blue:hover {
+  background-color: #0d6efd;
+  color: transparent;
 }
 
 .btn-indigo {
   background-color: #6610f2;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1582,12 +1617,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-indigo:hover {
-  background-color: #8540f5;
+  background-color: #7528f3;
+}
+
+.btn-outlined-indigo {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #6610f2;
+}
+.btn-outlined-indigo:hover {
+  background-color: #6610f2;
+  color: transparent;
 }
 
 .btn-purple {
   background-color: #6f42c1;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1595,12 +1647,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-purple:hover {
-  background-color: #8c68ce;
+  background-color: #7e55c7;
+}
+
+.btn-outlined-purple {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #6f42c1;
+}
+.btn-outlined-purple:hover {
+  background-color: #6f42c1;
+  color: transparent;
 }
 
 .btn-pink {
   background-color: #d63384;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1608,12 +1677,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-pink:hover {
-  background-color: #df5d9e;
+  background-color: #da4891;
+}
+
+.btn-outlined-pink {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #d63384;
+}
+.btn-outlined-pink:hover {
+  background-color: #d63384;
+  color: transparent;
 }
 
 .btn-red {
   background-color: #dc3545;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1621,12 +1707,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-red:hover {
-  background-color: #e4606d;
+  background-color: #e04b59;
+}
+
+.btn-outlined-red {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #dc3545;
+}
+.btn-outlined-red:hover {
+  background-color: #dc3545;
+  color: transparent;
 }
 
 .btn-orange {
   background-color: #fd7e14;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1634,12 +1737,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-orange:hover {
-  background-color: #fd9a47;
+  background-color: #fd8c2d;
+}
+
+.btn-outlined-orange {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #fd7e14;
+}
+.btn-outlined-orange:hover {
+  background-color: #fd7e14;
+  color: transparent;
 }
 
 .btn-yellow {
   background-color: #ffc107;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1647,12 +1767,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-yellow:hover {
-  background-color: #ffce3a;
+  background-color: #ffc721;
+}
+
+.btn-outlined-yellow {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #ffc107;
+}
+.btn-outlined-yellow:hover {
+  background-color: #ffc107;
+  color: transparent;
 }
 
 .btn-green {
   background-color: #198754;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1660,12 +1797,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-green:hover {
-  background-color: #21b26f;
+  background-color: #1d9d61;
+}
+
+.btn-outlined-green {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #198754;
+}
+.btn-outlined-green:hover {
+  background-color: #198754;
+  color: transparent;
 }
 
 .btn-teal {
   background-color: #20c997;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1673,12 +1827,29 @@ ul {
   transition-timing-function: ease;
 }
 .btn-teal:hover {
-  background-color: #3ce0af;
+  background-color: #26dca6;
+}
+
+.btn-outlined-teal {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #20c997;
+}
+.btn-outlined-teal:hover {
+  background-color: #20c997;
+  color: transparent;
 }
 
 .btn-cyan {
   background-color: #0dcaf0;
   border: 0;
+  border-radius: 20px;
   cursor: pointer;
   padding-inline: 20px;
   padding-block: 10px;
@@ -1686,7 +1857,28 @@ ul {
   transition-timing-function: ease;
 }
 .btn-cyan:hover {
-  background-color: #3cd5f4;
+  background-color: #23d0f3;
+}
+
+.btn-outlined-cyan {
+  background-color: transparent;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  border-color: #0dcaf0;
+}
+.btn-outlined-cyan:hover {
+  background-color: #0dcaf0;
+  color: transparent;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=Zweb.css.map */

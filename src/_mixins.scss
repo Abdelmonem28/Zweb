@@ -37,15 +37,13 @@
     box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.5);
 };
 
-@mixin btn($back : white){
+@mixin btn($back : null){
     background-color: $back;
     border: 0;
+    border-radius: $base-rad;
     cursor: pointer;
     padding-inline: $base-padding;
     padding-block: calc($base-padding / 2);
     transition-duration: 0.2s;
     transition-timing-function: ease;
-    &:hover{
-        background-color: lighten($back, 10%) 
-    }
 };
