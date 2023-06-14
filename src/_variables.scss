@@ -307,6 +307,17 @@ $utilities:(
             "xl": $base-font-size *3,
         )
     ),
+    "justify-content":(
+        "prefix":"justify",
+        "values":(
+            "center": center,
+            "start": flex-start,
+            "end": flex-end,
+            "spaceB": space-between,
+            "spaceA": space-around,
+            "spaceE": space-evenly,
+        )
+    ),
 );
 
 // Media Querys

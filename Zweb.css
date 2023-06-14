@@ -436,6 +436,30 @@ ul {
   font-size: 3rem;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-spaceB {
+  justify-content: space-between;
+}
+
+.justify-spaceA {
+  justify-content: space-around;
+}
+
+.justify-spaceE {
+  justify-content: space-evenly;
+}
+
 .color-blue {
   color: #0d6efd;
 }
