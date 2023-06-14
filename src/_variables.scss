@@ -6,20 +6,133 @@ $base-font-size: 1rem;
 
 // Colors
 $colors:(
-    "blue":#0d6efd ,
-    "indigo":#6610f2 ,
-    "purple":#6f42c1 ,
-    "pink":#d63384 ,
-    "red":#dc3545 ,
-    "orange":#fd7e14 ,
-    "yellow":#ffc107 ,
-    "green":#198754 ,
-    "teal":#20c997 ,
-    "cyan":#0dcaf0 ,
-    "black":#000 ,
-    "white":#fff ,
-    "gray":#adb5bd ,
-    "dark-gray":#212529 ,
+    "blue":(
+        "default":#0d6efd,
+            "100": lighten(#0d6efd,30%),
+            "200": lighten(#0d6efd,25%),
+            "300": lighten(#0d6efd,20%),
+            "400": lighten(#0d6efd,15%),
+            "500": lighten(#0d6efd,10%),
+            "600": darken(#0d6efd, 15%),
+            "700": darken(#0d6efd, 20%),
+            "800": darken(#0d6efd, 25%),
+            "900": darken(#0d6efd, 30%),
+    ),
+    "indigo":(
+        "default":#6610f2,
+            "100": lighten(#6610f2,30%),
+            "200": lighten(#6610f2,25%),
+            "300": lighten(#6610f2,20%),
+            "400": lighten(#6610f2,15%),
+            "500": lighten(#6610f2,10%),
+            "600": darken(#6610f2, 15%),
+            "700": darken(#6610f2, 20%),
+            "800": darken(#6610f2, 25%),
+            "900": darken(#6610f2, 30%),
+    ) ,
+    "purple":(
+        "default":#6f42c1,
+            "100": lighten(#6f42c1,30%),
+            "200": lighten(#6f42c1,25%),
+            "300": lighten(#6f42c1, 20%),
+            "400": lighten(#6f42c1, 15%),
+            "500": lighten(#6f42c1, 10%),
+            "600": darken(#6f42c1, 15%),
+            "700": darken(#6f42c1, 20%),
+            "800": darken(#6f42c1, 25%),
+            "900": darken(#6f42c1, 30%),
+    ),
+    "pink":(
+        "default":#d63384,
+            "100": lighten(#d63384, 30%),
+            "200": lighten(#d63384, 25%),
+            "300": lighten(#d63384, 20%),
+            "400": lighten(#d63384, 15%),
+            "500": lighten(#d63384, 10%),
+            "600": darken(#d63384, 15%),
+            "700": darken(#d63384, 20%),
+            "800": darken(#d63384, 25%),
+            "900": darken(#d63384, 30%),
+    ),
+    "red":(
+        "default":#dc3545,
+            "100": lighten(#dc3545, 30%),
+            "200": lighten(#dc3545, 25%),
+            "300": lighten(#dc3545, 20%),
+            "400": lighten(#dc3545, 15%),
+            "500": lighten(#dc3545, 10%),
+            "600": darken(#dc3545, 15%),
+            "700": darken(#dc3545, 20%),
+            "800": darken(#dc3545, 25%),
+            "900": darken(#dc3545, 30%),
+    ),
+    "orange":(
+        "default":#fd7e14,
+            "100": lighten(#fd7e14, 30%),
+            "200": lighten(#fd7e14, 25%),
+            "300": lighten(#fd7e14, 20%),
+            "400": lighten(#fd7e14, 15%),
+            "500": lighten(#fd7e14, 10%),
+            "600": darken(#fd7e14, 15%),
+            "700": darken(#fd7e14, 20%),
+            "800": darken(#fd7e14, 25%),
+            "900": darken(#fd7e14, 30%),
+    ),
+    "yellow":(
+        "default":#ffc107,
+            "100": lighten(#ffc107, 30%),
+            "200": lighten(#ffc107, 25%),
+            "300": lighten(#ffc107, 20%),
+            "400": lighten(#ffc107, 15%),
+            "500": lighten(#ffc107, 10%),
+            "600": darken(#ffc107, 15%),
+            "700": darken(#ffc107, 20%),
+            "800": darken(#ffc107, 25%),
+            "900": darken(#ffc107, 30%),
+    ),
+    "green":(
+        "default":#198754,
+            "100": lighten(#198754, 30%),
+            "200": lighten(#198754, 25%),
+            "300": lighten(#198754, 20%),
+            "400": lighten(#198754, 15%),
+            "500": lighten(#198754, 10%),
+            "600": darken(#198754, 15%),
+            "700": darken(#198754, 20%),
+            "800": darken(#198754, 25%),
+            "900": darken(#198754, 30%),
+    ),
+    "teal":(
+        "default":#20c997,
+            "100": lighten(#20c997,30%),
+            "200": lighten(#20c997,25%),
+            "300": lighten(#20c997,20%),
+            "400": lighten(#20c997,15%),
+            "500": lighten(#20c997,10%),
+            "600": darken(#20c997, 15%),
+            "700": darken(#20c997, 20%),
+            "800": darken(#20c997, 25%),
+            "900": darken(#20c997, 30%),
+    ),
+    "cyan":(
+        "default":#0dcaf0,
+            "100": lighten(#0dcaf0, 30%),
+            "200": lighten(#0dcaf0, 25%),
+            "300": lighten(#0dcaf0, 20%),
+            "400": lighten(#0dcaf0, 15%),
+            "500": lighten(#0dcaf0, 10%),
+            "600": darken(#0dcaf0, 15%),
+            "700": darken(#0dcaf0, 20%),
+            "800": darken(#0dcaf0, 25%),
+            "900": darken(#0dcaf0, 30%),
+    ),
+);
+
+$gray:(
+    "white":#fff,
+    "gray":#adb5bd,
+    "dark-gray":#212529,
+    "black":#000,
 );
 
 // Utilities
@@ -184,4 +297,23 @@ $utilities:(
             "inb": inline-block,
         )
     ),
-)
+);
+
+// Media Querys
+$break-points:(
+    "xs":0,
+    "sm":480px,
+    "md":720px,
+    "lg":960px,
+    "xl":1200px,
+);
+
+
+// Grid System
+$grid-columns: 12;
+$grid-gaps:(
+    "0": 0,
+    "1": 10px,
+    "2": 20px,
+    "3": 30px,
+);
