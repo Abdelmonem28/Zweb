@@ -1216,6 +1216,38 @@ ul {
   background-color: #05505f;
 }
 
+.color-white {
+  color: #fff;
+}
+
+.back-white {
+  background-color: #fff;
+}
+
+.color-gray {
+  color: #adb5bd;
+}
+
+.back-gray {
+  background-color: #adb5bd;
+}
+
+.color-dark-gray {
+  color: #212529;
+}
+
+.back-dark-gray {
+  background-color: #212529;
+}
+
+.color-black {
+  color: #000;
+}
+
+.back-black {
+  background-color: #000;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;

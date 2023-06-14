@@ -59,6 +59,15 @@ ul{
   }
 };
 
+@each $color, $v in $gray{
+  .color-#{$color}{
+    color: $v;
+  }
+  .back-#{$color}{
+    background-color: $v;
+  }
+}
+
 // Grid System
 .container{
   width: 100%;
